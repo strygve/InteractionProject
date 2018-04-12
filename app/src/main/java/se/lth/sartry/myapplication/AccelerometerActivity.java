@@ -44,13 +44,6 @@ public class AccelerometerActivity extends AppCompatActivity implements SensorEv
         @Override
         public void onAccuracyChanged(Sensor sensor, int accuracy) {
         }
-//    protected float[] lowPass( float[] input, float[] output ) {
-//        if ( output == null ) return input;
-//        for ( int i=0; i<input.length; i++ ) {
-//            output[i] = output[i] + ALPHA * (input[i] - output[i]);
-//        }
-//        return output;
-//    }
         @Override
         public void onSensorChanged(SensorEvent event) {
 
