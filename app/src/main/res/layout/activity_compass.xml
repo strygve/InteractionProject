@@ -18,10 +18,12 @@
         android:id="@+id/txt_azimuth"/>
 
     <ImageView
+        android:id="@+id/img_compass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/compass"
         android:layout_below="@+id/txt_azimuth"
-        android:id="@+id/img_compass"/>
+        android:src="@drawable/compass3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
 
 </android.support.constraint.ConstraintLayout>
